@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter first name" name="fname"><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" placeholder="Enter last name" name="lname">
+        <label for="lname">Last name:</label><br>
+        <input type="text" placeholder="Enter your email"  name="email">
+        <label for="email">EMAIL:</label><br>
+        <input type="text" placeholder="Enter phone your number" name="phone">
+        <label for="phone">phone:</label><br>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="female">Female</label><br>
+        <label for="department">Choose department:</label>
+        <select name="department" id="department">
+            <option value="sales">Sales</option>
+            <option value="it">IT</option>
+        </select>
+        <br /> <br>
+<textarea id="message"
+          message
+          roWS="4" cols="50"></textarea>
+        <br /><br />
+        input type="submit"
+        <br /><br />
+        @ViewBag.message
+    </form>
+</body>
+</html>
